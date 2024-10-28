@@ -8,7 +8,7 @@ function Cards() {
       <section id='cards'>
         <div id='placeholder'/>
         <div className='cards'>
-           <h1>Check out my Work Terms!</h1>
+           <h1>Check out my Work Terms</h1>
               <div className='cards__container'>
                   <div className='cards__wrapper'>
                       <ul className='cards__items'>
