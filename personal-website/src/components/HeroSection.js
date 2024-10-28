@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import ScrollHandler from './HandleScroll';
 
 function HeroSection() {
   return (
@@ -14,6 +15,9 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick={(e) => {
+            ScrollHandler.handleScroll(e, 'footer');}
+          }
         >
           Learn more!
         </Button>
@@ -21,9 +25,11 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={(e) => {
+            ScrollHandler.handleScroll(e, 'cards');}
+          }
         >
-          Work Terms!
+          Work Terms
         </Button>
       </div>
     </div>

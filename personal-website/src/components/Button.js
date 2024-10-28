@@ -1,15 +1,10 @@
 import React from 'react';
 import './Button.css';
+import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--social'];
 
 const SIZES = ['btn--medium', 'btn--large'];
-
-const handleScroll = (e) => {
-  e.preventDefault();
-  const section = document.getElementById('cards');
-  section.scrollIntoView({ behavior: 'smooth' });
-};
 
 export const Button = ({
   children,
@@ -25,7 +20,7 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return (
-        <a className='btn-mobile'href='#cards' onClick={handleScroll}>
+        <Link className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
@@ -33,6 +28,6 @@ export const Button = ({
             >
             {children}
             </button>
-        </a>
+        </Link>
     );
 };

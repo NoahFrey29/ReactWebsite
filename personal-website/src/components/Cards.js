@@ -13,32 +13,32 @@ function Cards() {
                   <div className='cards__wrapper'>
                       <ul className='cards__items'>
                           <CardItem
-                              src='images/smile.jpg'
-                              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                              label='Adventure'
-                              path='/' />
+                              src='images/smile.jpg' // add standing in front of score building
+                              text='QA Automation Engineer at theScore (Summer/Fall 2024)'
+                              label='Work Terms 1 and 2'
+                              path='/work-term-one' />
                           <CardItem
-                              src='images/smile.jpg'
-                              text='Travel through the Islands of Bali in a Private Cruise'
-                              label='Luxury'
+                              src='images/hpe.jpg'
+                              text='Software Developer Intern at Hewlett Packard Enterprise'
+                              label='Summer 2023 at HPE'
                               path='/' />
                       </ul>
                       <ul className='cards__items'>
                           <CardItem
-                              src='images/smile.jpg'
-                              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                              label='Mystery'
-                              path='/' />
+                              src='images/img-2.jpg'
+                              text='Work Terms 3, 4, 5'
+                              label='Future Work - TBD'
+                              path='/tbd' />
                           <CardItem
-                              src='images/smile.jpg'
-                              text='Experience Football on Top of the Himilayan Mountains'
-                              label='Adventure'
-                              path='/' />
+                              src='images/img-9.jpg'
+                              text='Work Terms 3, 4, 5'
+                              label='Future Work - TBD'
+                              path='/tbd' />
                           <CardItem
-                              src='images/img-8.jpg'
-                              text='Ride through the Sahara Desert on a guided camel tour'
-                              label='Adrenaline'
-                              path='/' />
+                              src='images/img-8.jpg' // resume clipart
+                              text='Check out my Resume!'
+                              label='My Resume'
+                              path='/resume' />
                       </ul>
                   </div>
               </div>
