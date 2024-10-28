@@ -49,18 +49,19 @@ function Navbar() {
                     Products
                   </Link>
                 </li>
-
-                <li>
-                  <Link
-                    to='/sign-up'
-                    className='nav-links-mobile'
-                    onClick={closeMobileMenu}
-                  >
-                    Sign Up
-                  </Link>
-                </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>TBD</Button>}
+              <Button 
+                buttonStyle="btn--social" 
+              >
+                GitHub
+                <i class="fa-brands fa-github"/>
+              </Button>
+              <Button 
+                buttonStyle="btn--social" 
+              >
+                LinkedIn
+                <i class="fa-brands fa-linkedin"/>
+              </Button>
         </div>
       </nav>
     </>
