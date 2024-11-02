@@ -4,6 +4,10 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div id="footer" className='footer-container'>
       <div class='footer-links'>
@@ -32,7 +36,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='footer-logo'>
+            <Link to='/' className='footer-logo' onClick={handleClick}>
                 My Personal Website<i className='fa-solid fa-laptop-code'/>
             </Link>
           </div>

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import HPE from './components/pages/HPE';
+import WorkTermOne from './components/pages/WorkTermOne';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/tbd' element={<TBD/>} />
           <Route path='/hpe' element={<HPE/>}/>
+          <Route path='/work-term-one' element={<WorkTermOne/>}/>
         </Routes>
         <Footer/>
       </Router>
