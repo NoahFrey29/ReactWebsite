@@ -21,7 +21,7 @@ function Cards() {
                               src='images/hpe.jpg'
                               text='Software Developer Intern at Hewlett Packard Enterprise'
                               label='Summer 2023 at HPE'
-                              path='/' />
+                              path='/hpe' />
                       </ul>
                       <ul className='cards__items'>
                           <CardItem

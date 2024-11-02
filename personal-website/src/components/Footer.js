@@ -9,7 +9,7 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>A little bit about me...</h2>
+            <h1>A little bit about me...</h1>
               <p class="about-me">My name is Noah Frey and I am computer science student at the University of Guelph. Right now I am currently interested in both web automation and development!
                 I have a schnauzer named Tucker and I love doing cross country in the fall. Please feel free to email me at noahfrey29@gmail.com if you have any questions!
               </p>

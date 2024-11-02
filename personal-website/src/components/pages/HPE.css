@@ -1,0 +1,43 @@
+.container {
+    height: auto;
+    max-width: 1500px;
+    justify-content: center;
+    line-height: 1.25;
+    margin: auto;
+    background-color: #fff;
+    margin: 50px 150px 50px 150px;
+}
+
+h1 {
+    margin-top: 40px
+}
+
+.text-right > p {
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.remainder-text {
+    width: 100%;
+    max-width: 1500px;
+    background-color: #fff;
+    line-height: 1.25;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.remainder-text > p {
+    font-size: 20px;
+    margin: 0 auto 1.5rem auto;
+    width: 90%;
+    text-align: center;
+}
+
+.image-wrap {
+    float: left;
+    margin: 0 160px 20px 100px;
+    max-width: 300px;
+    border-radius: 8px;
+}
