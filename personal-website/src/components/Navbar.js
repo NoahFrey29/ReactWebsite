@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import './Navbar.css';
 import {Button} from './Button';
+import { useNavigate } from 'react-router-dom';
 import ScrollHandler from './HandleScroll'
 
 function Navbar() {
@@ -22,6 +23,8 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, []);
+
+  const navigate = useNavigate();
 
   window.addEventListener('resize', showButton);
 
@@ -46,6 +49,9 @@ function Navbar() {
                     className='nav-links'
                     onClick={(e) => {
                       closeMobileMenu();
+                      if (window.location.pathname !== '/') {
+                        navigate('/');
+                      }
                       ScrollHandler.handleScroll(e, 'cards');
                     }}
                   >
