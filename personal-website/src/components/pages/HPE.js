@@ -11,18 +11,9 @@ function HPE() {
         <div class="container">
             <div class="text-left">
             <img src="images/smile.jpg" alt="aug31" class="image-wrap"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-                <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-                <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                <p>I completed a software developer internship at HPE in the summer of 2023, and looking back on that time, I am really grateful for it. Coming just out of first year, I was inexperienced but knew that I wanted to learn as much as possible. HPE welcomed me with open arms and I had the opportunity to work on an ongoing project that I saw through up to its completion.</p>
+                <p>During my time here, I got to see my first exposure to the software development life cycle in nearly its entirety, and as the months went on, I found the team relying on me to assist with code reviews, internal testing, and even communicating with Rogers clients on quality assurance requirements. In my last month, I was the QA lead for the project, which not only gave me insight into what was needed for our project and for our internal testing efforts, but hugely improved my communication skills within my team and with clients. HPE was a wonderful place to gain valuable understanding of the SDLC and learn about working within a small and compact team.</p>
             </div>
-        </div>
-        <div class="remainder-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
         </div>
     </section>
   )

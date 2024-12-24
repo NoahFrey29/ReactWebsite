@@ -12,8 +12,8 @@ h1 {
     margin-top: 40px
 }
 
-.text-left > p {
-    font-size: 21px;
+.text-right > p {
+    font-size: 20px;
     justify-content: center;
     margin-bottom: 1.5rem;
     overflow: hidden;
@@ -28,9 +28,16 @@ h1 {
     text-align: center;
 }
 
+.remainder-text > p {
+    font-size: 20px;
+    margin: 0 auto 1.5rem auto;
+    width: 90%;
+    text-align: center;
+}
+
 .image-wrap {
     float: right;
-    margin: 0 160px 20px 100px;
+    margin: 0 100px 20px 160px;
     max-width: 300px;
     border-radius: 8px;
 }

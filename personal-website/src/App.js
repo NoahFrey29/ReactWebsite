@@ -7,6 +7,7 @@ import './App.css';
 import Footer from './components/Footer';
 import HPE from './components/pages/HPE';
 import WorkTermOne from './components/pages/WorkTermOne';
+import WorkTermTwo from './components/pages/WorkTermTwo';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/tbd' element={<TBD/>} />
           <Route path='/hpe' element={<HPE/>}/>
           <Route path='/work-term-one' element={<WorkTermOne/>}/>
+          <Route path='/work-term-two' element={<WorkTermTwo/>}/>
         </Routes>
         <Footer/>
       </Router>

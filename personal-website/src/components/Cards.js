@@ -21,7 +21,7 @@ function Cards() {
                               src='images/thescore2.jpg'
                               text='QA Automation Engineer at theScore - WT2'
                               label='Work Term 2 - F2024'
-                              path='/work-term-one' />
+                              path='/work-term-two' />
                       </ul>
                       <ul className='cards__items'>
                           <CardItem
