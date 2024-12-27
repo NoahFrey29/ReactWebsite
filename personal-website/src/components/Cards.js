@@ -13,12 +13,12 @@ function Cards() {
                   <div className='cards__wrapper'>
                       <ul className='cards__items'>
                           <CardItem
-                              src='images/smile.jpg' // add standing in front of score building
+                              src='images/work-term-one.jpg' // add standing in front of score building
                               text='QA Automation Engineer at theScore - WT1'
                               label='Work Term 1 - S2024'
                               path='/work-term-one' />
                           <CardItem
-                              src='images/thescore2.jpg'
+                              src='images/thescore-office.jpeg'
                               text='QA Automation Engineer at theScore - WT2'
                               label='Work Term 2 - F2024'
                               path='/work-term-two' />
@@ -35,10 +35,10 @@ function Cards() {
                               label='Future Work - TBD'
                               path='/tbd' />
                           <CardItem
-                              src='images/img-8.jpg' // resume clipart
+                              src='images/img-8.jpg'
                               text='Check out my Resume!'
                               label='My Resume'
-                              path='/resume' />
+                              path='/resume.pdf' />
                       </ul>
                   </div>
               </div>

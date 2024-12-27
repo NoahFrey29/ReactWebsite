@@ -2,7 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function CardItem(props) {
-  const handleClick = () => {
+  const handleClick = (e) => {
+    if (props.path === '/resume.pdf') {
+      e.preventDefault();
+      window.open(props.path, '_self');
+    }
     window.scrollTo(0, 0);
   };
 
