@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactWebsite/static/css/main.f855e6bc.css",
-    "main.js": "/ReactWebsite/static/js/main.e25c4ee5.js",
-    "static/js/488.273886f3.chunk.js": "/ReactWebsite/static/js/488.273886f3.chunk.js",
-    "static/media/logo.svg": "/ReactWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/ReactWebsite/static/css/main.3c399379.css",
+    "main.js": "/ReactWebsite/static/js/main.25926bbb.js",
+    "static/media/video-1.mp4": "/ReactWebsite/static/media/video-1.59e75226d30ad48f9ede.mp4",
+    "static/media/noah-at-thescore.png": "/ReactWebsite/static/media/noah-at-thescore.dbf89f483961a04e85a4.png",
+    "static/media/img-2.jpg": "/ReactWebsite/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/thescore-office.jpeg": "/ReactWebsite/static/media/thescore-office.485c4e4e69adb43ba0af.jpeg",
+    "static/media/work-term-one.jpg": "/ReactWebsite/static/media/work-term-one.2777689c922dab59c2f3.jpg",
+    "static/media/img-8.jpg": "/ReactWebsite/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "static/media/10th-floor.jpg": "/ReactWebsite/static/media/10th-floor.9b668a25a7be7e43b10a.jpg",
+    "static/media/aug-31-2023.jpeg": "/ReactWebsite/static/media/aug-31-2023.7d8b88a838f33decc5cb.jpeg",
+    "static/media/hpe.jpg": "/ReactWebsite/static/media/hpe.cc7720c8bc2d95a82e29.jpg",
     "index.html": "/ReactWebsite/index.html",
-    "main.f855e6bc.css.map": "/ReactWebsite/static/css/main.f855e6bc.css.map",
-    "main.e25c4ee5.js.map": "/ReactWebsite/static/js/main.e25c4ee5.js.map",
-    "488.273886f3.chunk.js.map": "/ReactWebsite/static/js/488.273886f3.chunk.js.map"
+    "main.3c399379.css.map": "/ReactWebsite/static/css/main.3c399379.css.map",
+    "main.25926bbb.js.map": "/ReactWebsite/static/js/main.25926bbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e25c4ee5.js"
+    "static/css/main.3c399379.css",
+    "static/js/main.25926bbb.js"
   ]
 }
