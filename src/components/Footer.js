@@ -22,7 +22,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/ReactWebsite' className='footer-logo' onClick={handleClick}>
+            <Link to='/' className='footer-logo' onClick={handleClick}>
                 My Personal Website<i className='fa-solid fa-laptop-code'/>
             </Link>
           </div>

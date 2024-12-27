@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/ReactWebsite' element={<Home/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='/tbd' element={<TBD/>} />
           <Route path='/hpe' element={<HPE/>}/>
           <Route path='/work-term-one' element={<WorkTermOne/>}/>

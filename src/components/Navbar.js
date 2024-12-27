@@ -32,7 +32,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-            <Link to='/ReactWebsite' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                 My Personal Website<i className='fa-solid fa-laptop-code'/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -40,7 +40,7 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/ReactWebsite' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                         Home
                     </Link>
                 </li>
@@ -49,8 +49,8 @@ function Navbar() {
                     className='nav-links'
                     onClick={(e) => {
                       closeMobileMenu();
-                      if (window.location.pathname !== '/ReactWebsite') {
-                        navigate('/ReactWebsite');
+                      if (window.location.pathname !== '/') {
+                        navigate('/');
                       }
                       ScrollHandler.handleScroll(e, 'cards');
                     }}
