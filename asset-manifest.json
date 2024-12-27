@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://noahfreyworks.com/static/css/main.3c399379.css",
-    "main.js": "https://noahfreyworks.com/static/js/main.af21317f.js",
+    "main.js": "https://noahfreyworks.com/static/js/main.ca4a2e4d.js",
     "static/media/video-1.mp4": "https://noahfreyworks.com/static/media/video-1.59e75226d30ad48f9ede.mp4",
     "static/media/noah-at-thescore.png": "https://noahfreyworks.com/static/media/noah-at-thescore.dbf89f483961a04e85a4.png",
     "static/media/img-2.jpg": "https://noahfreyworks.com/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
@@ -13,10 +13,10 @@
     "static/media/hpe.jpg": "https://noahfreyworks.com/static/media/hpe.cc7720c8bc2d95a82e29.jpg",
     "index.html": "https://noahfreyworks.com/index.html",
     "main.3c399379.css.map": "https://noahfreyworks.com/static/css/main.3c399379.css.map",
-    "main.af21317f.js.map": "https://noahfreyworks.com/static/js/main.af21317f.js.map"
+    "main.ca4a2e4d.js.map": "https://noahfreyworks.com/static/js/main.ca4a2e4d.js.map"
   },
   "entrypoints": [
     "static/css/main.3c399379.css",
-    "static/js/main.af21317f.js"
+    "static/js/main.ca4a2e4d.js"
   ]
 }
