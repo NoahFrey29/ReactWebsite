@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import HPE from './components/pages/HPE';
 import WorkTermOne from './components/pages/WorkTermOne';
 import WorkTermTwo from './components/pages/WorkTermTwo';
+import WorkTermThree from './components/pages/WorkTermThree';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/hpe' element={<HPE/>}/>
           <Route path='/work-term-one' element={<WorkTermOne/>}/>
           <Route path='/work-term-two' element={<WorkTermTwo/>}/>
+          <Route path='/work-term-three' element={<WorkTermThree/>}/>
         </Routes>
         <Footer/>
       </Router>

@@ -13,14 +13,14 @@ function Cards() {
                   <div className='cards__wrapper'>
                       <ul className='cards__items'>
                           <CardItem
-                              src={require('../images/work-term-one.jpg')} // add standing in front of score building
-                              text='QA Automation Engineer at theScore - WT1'
-                              label='Work Term 1 - S2024'
-                              path='/work-term-one' />
-                          <CardItem
                               src={require('../images/thescore-office.jpeg')}
-                              text='QA Automation Engineer at theScore - WT2'
-                              label='Work Term 2 - F2024'
+                              text='QA Automation Engineer at theScore - WT3'
+                              label='Work Term 3 - S2025'
+                              path='/work-term-three' />
+                          <CardItem
+                              src={require('../images/work-term-one.jpg')}
+                              text='QA Automation Engineer at theScore - WT1 & WT2'
+                              label='Work Term 1 and 2 - S2024 & F2024'
                               path='/work-term-two' />
                       </ul>
                       <ul className='cards__items'>
@@ -31,7 +31,7 @@ function Cards() {
                               path='/hpe' />
                           <CardItem
                               src={require('../images/img-2.jpg')}
-                              text='Work Terms 3, 4, 5'
+                              text='Work Terms 4 and 5'
                               label='Future Work - TBD'
                               path='/tbd' />
                           <CardItem
