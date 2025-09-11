@@ -9,7 +9,7 @@ function WorkTermThree() {
             <h1>My Third Word Term at theScore as a QA Automation Engineer!</h1>
           </div>
             <div class="container">
-                <img src={require('../../images/noah-at-thescore.png')} alt="score-office" className="image-wrap-wt1" />
+                <img src={require('../../images/noah-at-thescore.png')} alt="score-office" className="image-wrap-wt3" />
                 <div class="text-right">
                     <p>Abstraction: This website and my position at theScore go hand-in-hand for me; they both gave me new opportunities to grow my knowledge, skills, and within my career. Working as a QA Automation Engineer taught me about new frameworks, new ways to write testing code for web platforms, and how to work in a large and diverse team. Making a website from scratch and learning about web development independently was the best compliment to my co-op experience for this summer. I cannot wait to hone and improve my skills, searching for great opportunities like this one!</p>
                     <p>Information about the Employer: theScore is a sports media company that is based in Toronto, which deploys theScore Media app as well as theScore Bet app on Android, iOS, and web platforms. theScore develops software and completes extensive unit and automated testing for quality assurance for their high-quality app services. The office I worked at is located at 125 Queens Quay E and is relatively new, with the previous location being on King Street.</p>
