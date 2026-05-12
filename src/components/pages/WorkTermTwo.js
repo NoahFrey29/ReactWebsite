@@ -6,7 +6,7 @@ function WorkTermTwo() {
     return (
         <section>
           <div>
-            <h1>My First and Second Word Term at theScore as a QA Automation Engineer!</h1>
+            <h1>My First and Second Work Term at theScore as a QA Automation Engineer!</h1>
           </div>
             <div class="container">
                 <img src={require('../../images/10th-floor.jpg')} alt="10th-floor" className="image-wrap-wt1" />

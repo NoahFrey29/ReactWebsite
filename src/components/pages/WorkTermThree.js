@@ -6,7 +6,7 @@ function WorkTermThree() {
     return (
         <section>
           <div>
-            <h1>My Third Word Term at theScore as a QA Automation Engineer!</h1>
+            <h1>My Third Work Term at theScore as a QA Automation Engineer!</h1>
           </div>
             <div class="container">
                 <img src={require('../../images/noah-at-thescore.png')} alt="score-office" className="image-wrap-wt3" />
