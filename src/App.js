@@ -10,6 +10,7 @@ import WorkTermOne from './components/pages/WorkTermOne';
 import WorkTermTwo from './components/pages/WorkTermTwo';
 import WorkTermThree from './components/pages/WorkTermThree'
 import WorkTermFour from './components/pages/WorkTermFour';
+import WorkTermFive from './components/pages/WorkTermFive';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/work-term-two' element={<WorkTermTwo/>}/>
           <Route path='/work-term-three' element={<WorkTermThree/>}/>
           <Route path='/work-term-four' element={<WorkTermFour/>}/>
+          <Route path='/work-term-five' element={<WorkTermFive/>} />
         </Routes>
         <Footer/>
       </Router>

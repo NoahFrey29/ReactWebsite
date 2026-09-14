@@ -12,28 +12,28 @@ function Cards() {
               <div className='cards__container'>
                   <div className='cards__wrapper'>
                       <ul className='cards__items'>
+                            <CardItem
+                                src={require('../images/magnet_office.jpg')}
+                                text='Software Developer at Magnet Forensics - WT5'
+                                label='Work Term 5 - W2026'
+                                path='/work-term-five' />
                           <CardItem
                               src={require('../images/magnetLogo.png')}
                               text='Software Developer at Magnet Forensics - WT4'
                               label='Work Term 4 - W2026'
                               path='/work-term-four' />
-                          <CardItem
-                              src={require('../images/thescore-office.jpeg')}
-                              text='QA Automation Engineer at theScore - WT3'
-                              label='Work Term 3 - S2025'
-                              path='/work-term-three' />
                       </ul>
                       <ul className='cards__items'>
-                          <CardItem
-                              src={require('../images/work-term-one.jpg')}
-                              text='QA Automation Engineer at theScore - WT1 & WT2'
-                              label='Work Term 1 and 2 - S2024 & F2024'
-                              path='/work-term-two' />
-                          <CardItem
-                              src={require('../images/hpe.jpg')}
-                              text='Software Developer Intern at Hewlett Packard Enterprise'
-                              label='Summer 2023 at HPE'
-                              path='/hpe' />
+                              <CardItem
+                                  src={require('../images/thescore-office.jpeg')}
+                                  text='QA Automation Engineer at theScore - WT3'
+                                  label='Work Term 3 - S2025'
+                                  path='/work-term-three' />
+                            <CardItem
+                                src={require('../images/work-term-one.jpg')}
+                                text='QA Automation Engineer at theScore - WT1 & WT2'
+                                label='Work Term 1 and 2 - S2024 & F2024'
+                                path='/work-term-two' />
                           <CardItem
                               src={require('../images/img-8.jpg')}
                               text='Check out my Resume!'
